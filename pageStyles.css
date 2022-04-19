@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+#headerArea {
+    background-color: #004d99;
+    height: 50px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    line-height: 24pt;
+    letter-spacing: 2pt;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #000;
+    width: 100%;
+}
+
+#sideArea {
+    position: relative;
+    font-size: 20px;
+    font-family: Verdana, Helvetica, Arial, "Times New Roman";
+    background-color: #004d99;
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    border-top: none;
+    color: white;
+    padding: 20px;
+    float: left;
+    height: 100%;
+    font-weight: normal;
+    background-color: #004d99;
+    line-height: 30pt;
+    margin-left: -8px;
+    word-wrap: break-word;
+    width: 210px;
+}
+
+#sideArea a {
+    text-decoration: none;
+    color: white;
+}
+
+#sideArea a:hover {
+    text-decoration: underline;
+}
+
+.textArea {
+    font-family: Verdana, Helvetica, Arial, Times New Roman;
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    word-wrap: break-word;
+    line-height: 50px;
+    left: 300px;
+}
+
+#footerArea {
+    position: fixed;
+    bottom: 0px;
+    background-color: #ccc;
+    height: 20px;
+    padding: 5px;
+    font-size: 12pt;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-style {
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.281), rgba(255, 255, 255, 0.0)), url("https://i.pinimg.com/originals/29/96/7c/29967c0267d58120fbcb043020b09858.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-style::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(255, 253, 253, 0.1);
+    z-index: -1;
+}
